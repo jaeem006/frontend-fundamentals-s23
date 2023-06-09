@@ -1,0 +1,67 @@
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background-color: black;
+    width: 100%;
+}
+
+.contenido {
+    height: 8000px;
+    margin-top: 105px;
+}
+
+.car{
+    height: 200px;
+    width: 200px;
+}
+
+.car1 {
+    background-color: blue;
+}
+.car2 {
+    background-color: red;
+}
+.car3 {
+    background-color: yellow;
+}
+.car4 {
+    background-color: green;
+}
+
+.features {
+    margin-top: 110px;
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 250px 300px; */
+    /* filas x Columnas */
+    grid-template: repeat(2, 300px) / repeat(2, 1fr);
+}
+
+
+.features2 {
+    margin-top: 110px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: 250px 300px; */
+    /* filas x Columnas */
+}
+
+.car11 {
+    background-color: blue;
+    order: 2;
+}
+.car21 {
+    background-color: red;
+    order: 3;
+}
+.car31 {
+    background-color: yellow;
+    order: 2;
+}
+.car41 {
+    background-color: green;
+    order: 3;
+}
