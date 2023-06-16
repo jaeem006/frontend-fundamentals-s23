@@ -65,3 +65,26 @@
     background-color: green;
     order: 3;
 }
+
+.miNavbar {
+    background-color: red !important;
+}
+
+@media (max-width : 575px) {
+    body {
+        background-color: aquamarine;
+    }
+
+    .fixed-header {
+        display: none;
+    }
+
+    .features {
+        margin-top: 20px;
+        grid-template: repeat(4, 1fr) / repeat(1, 1fr);
+    }
+
+    .features2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
