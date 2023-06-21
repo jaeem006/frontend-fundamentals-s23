@@ -1,12 +1,13 @@
-.hola {
-  background-color: #025157;
-  font-size: large;
-}
-
 .blog {
   height: 600px;
   width: 600px;
   background-color: #04a3f9;
+}
+
+.blog2 {
+  height: 300px;
+  width: 300px;
+  background-color: beige;
 }
 
 div ul {

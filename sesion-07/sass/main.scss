@@ -1,10 +1,25 @@
 @use 'global' as *;
 
-.blog {
-    height: $size;
-    width: $size;
-    background-color: $azul;
+@mixin repetido($tamano, $color) {
+    height: $tamano;
+    width: $tamano;
+    background-color: $color;
 }
+
+.blog {
+    @include repetido($size, $azul);
+
+    @if ($size <= 400) {
+        border: 10px solid;
+        border-color: $verde;
+    }
+}
+
+.blog2 {
+    @include repetido(300px, beige);
+}
+
+
 
 div {
     ul {
@@ -18,3 +33,9 @@ div {
         font-size: large;
     }
 }
+
+// @media (orientation : landscape) {
+//     .blog {
+//         background-color: $verde;
+//     }
+// }
