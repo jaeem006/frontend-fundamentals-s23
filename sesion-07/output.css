@@ -1,0 +1,22 @@
+.hola {
+  background-color: #025157;
+  font-size: large;
+}
+
+.blog {
+  height: 600px;
+  width: 600px;
+  background-color: #04a3f9;
+}
+
+div ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+div p {
+  color: red;
+  font-size: large;
+}
+
+/*# sourceMappingURL=output.css.map */
